@@ -1,0 +1,38 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	body
+	{
+		background-image: url("https://www.medianews4u.com/wp-content/uploads/2024/01/minimini-app-Fi.jpg");
+		background-repeat: no-repeat;
+         background-size: 1400px;
+	}
+</style>
+<body bgcolor="skyblue">
+	<script type="text/javascript">
+		var a;
+		function OTP(){
+			a=Math.floor(Math.random()*4563);
+			window.alert(a);
+		}
+		function verify(){
+			var b=Number(document.getElementsByTagName('input')[1].value);
+			if(a==b){
+				document.write('OPT Verfied');
+				window.location.href='https://minmini.app/filter/foryou';
+			}
+			else{
+				document.write('Invalid');
+			}
+		}
+	</script>
+	<input type="" name="" placeholder="MOBILE NUMBER">
+	<button onclick="OTP()">OTP</button>
+	<input type="number" name=""> 
+	<button onclick="verify()">VERIFY</button>
+
+</body>
+</html>
